@@ -1,4 +1,4 @@
-import React, { useLayoutEffect } from "react"
+import React from "react"
 import Footer from "../@lekoarts/gatsby-theme-cara/components/footer"
 import Header from "../@lekoarts/gatsby-theme-cara/components/header"
 import Layout from "../@lekoarts/gatsby-theme-cara/components/layout"
