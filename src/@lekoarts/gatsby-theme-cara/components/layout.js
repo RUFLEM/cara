@@ -14,8 +14,7 @@ export default function Layout({ children }) {
           <h3 style={{ display: `inline` }}>rupertfleming.com</h3>
         </Link>
         <ul style={{ listStyle: `none`, float: `right` }}>
-          <ListLink to="/">Home</ListLink>
-          <ListLink to="/project/">Project</ListLink>
+          {/* <ListLink to="/">Home</ListLink> */}
         </ul>
       </header>
       {children}
