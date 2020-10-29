@@ -1,20 +1,20 @@
 var plugins = [{
-      plugin: require('/Users/rupertfleming/Desktop/ProjectArea/sites/RFBlog/cara/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
+      plugin: require('/Users/rupertfleming/Desktop/ProjectArea/sites/cara/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/rupertfleming/Desktop/ProjectArea/sites/RFBlog/cara/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/rupertfleming/Desktop/ProjectArea/sites/cara/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/rupertfleming/Desktop/ProjectArea/sites/RFBlog/cara/node_modules/gatsby-plugin-theme-ui/gatsby-ssr'),
+      plugin: require('/Users/rupertfleming/Desktop/ProjectArea/sites/cara/node_modules/gatsby-plugin-theme-ui/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/rupertfleming/Desktop/ProjectArea/sites/RFBlog/cara/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      plugin: require('/Users/rupertfleming/Desktop/ProjectArea/sites/cara/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/rupertfleming/Desktop/ProjectArea/sites/RFBlog/cara/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('/Users/rupertfleming/Desktop/ProjectArea/sites/cara/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"RF","short_name":"RF","description":"Rupert Fleming Site","start_url":"/","background_color":"#141821","theme_color":"#f6ad55","display":"standalone","icons":[{"src":"/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},{"src":"/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}],"cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":null},
     },{
-      plugin: require('/Users/rupertfleming/Desktop/ProjectArea/sites/RFBlog/cara/node_modules/gatsby-plugin-offline/gatsby-ssr'),
+      plugin: require('/Users/rupertfleming/Desktop/ProjectArea/sites/cara/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

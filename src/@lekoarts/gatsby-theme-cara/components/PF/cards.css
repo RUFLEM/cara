@@ -1,0 +1,15 @@
+.Cards {
+	width: 150px;
+	padding: 5px;
+	margin: 1rem;
+	box-shadow: 7px 10px 12px -5px rgba(0, 0, 0, 0.56);
+	text-align: center;
+	background-color: lightblue;
+	border-radius: 3px;
+	height: 60px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	align-self: center;
+
+}
