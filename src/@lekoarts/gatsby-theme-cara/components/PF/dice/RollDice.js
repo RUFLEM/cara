@@ -4,11 +4,12 @@ import "./RollDice.css";
 
 class RollDice extends Component {
   static defaultProps = {
-    sides: ["one", "two", "three", "four", "five", "six"]
+    // sides: ["one", "two", "three", "four", "five", "six"]
+    sides: ["One", "Two", "Three", "Four", "Five", "Six"]
   };
   constructor(props) {
     super(props);
-    this.state = { die1: "one", die2: "one", rolling: false };
+    this.state = { die1: "One", die2: "One", rolling: false };
     this.roll = this.roll.bind(this);
   }
   roll() {
