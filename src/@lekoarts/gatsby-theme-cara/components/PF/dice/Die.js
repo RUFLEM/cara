@@ -5,20 +5,33 @@ import { faDiceOne, faDiceTwo, faDiceThree, faDiceFour, faDiceFive, faDiceSix } 
 import "./Die.css";
 
 class Die extends Component {
+
   render() {
-    let fontdie = (`faDice${this.props.face}`)
-    console.log(fontdie)
+
+    let face = this.props.face
+    let helperIcon = faDiceOne
+    if(face==="Two"){
+       helperIcon = faDiceTwo
+    }
+    else if(face==="Three"){
+      helperIcon = faDiceThree
+    }
+    else if(face==="Four"){
+      helperIcon = faDiceFour
+    }
+    else if(face==="Five"){
+      helperIcon = faDiceFive
+    }
+    else if(face==="Six"){
+      helperIcon = faDiceSix
+    }
+    
+  
+
     return (
       <div>
-      <i
-        className={`Die fas fa-dice-${this.props.face} ${this.props.rolling &&
-          "shaking"}`}
-      />
-                <FontAwesomeIcon className={`Die fas fa-dice-${this.props.face} ${this.props.rolling &&
-          "shaking"}`} icon={faDiceOne} />
-                <FontAwesomeIcon icon={`${fontdie}`} />
-                <FontAwesomeIcon icon={`faDice${this.props.face}`} />
-                <FontAwesomeIcon icon={fontdie} />
+        <FontAwesomeIcon icon={helperIcon} className={`Die ${this.props.rolling &&
+          "shaking"}`}  />
 
       </div>
     );
