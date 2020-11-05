@@ -9,7 +9,7 @@ export default function HangmanPage() {
             <div className="HangmanApp">
                 <Hangman></Hangman>
             </div>
-            <a href="/project">all games</a>
+            <a href="/project">Projects</a>
         </div>
     );
 }
