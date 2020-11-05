@@ -2,7 +2,7 @@
 const preferDefault = m => m && m.default || m
 
 exports.components = {
-  "component---node-modules-gatsby-plugin-offline-app-shell-js": () => import("./../gatsby-plugin-offline/app-shell.js" /* webpackChunkName: "component---node-modules-gatsby-plugin-offline-app-shell-js" */),
+  "component---cache-dev-404-page-js": () => import("./../../.cache/dev-404-page.js" /* webpackChunkName: "component---cache-dev-404-page-js" */),
   "component---node-modules-lekoarts-gatsby-theme-cara-src-templates-cara-tsx": () => import("./../@lekoarts/gatsby-theme-cara/src/templates/cara.tsx" /* webpackChunkName: "component---node-modules-lekoarts-gatsby-theme-cara-src-templates-cara-tsx" */),
   "component---src-pages-colour-boxes-js": () => import("./../../src/pages/colourBoxes.js" /* webpackChunkName: "component---src-pages-colour-boxes-js" */),
   "component---src-pages-dad-jokes-js": () => import("./../../src/pages/dadJokes.js" /* webpackChunkName: "component---src-pages-dad-jokes-js" */),

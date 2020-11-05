@@ -5,7 +5,7 @@ const preferDefault = m => m && m.default || m
 
 
 exports.components = {
-  "component---node-modules-gatsby-plugin-offline-app-shell-js": hot(preferDefault(require("/Users/rupertfleming/Desktop/ProjectArea/sites/cara/node_modules/gatsby-plugin-offline/app-shell.js"))),
+  "component---cache-dev-404-page-js": hot(preferDefault(require("/Users/rupertfleming/Desktop/ProjectArea/sites/cara/.cache/dev-404-page.js"))),
   "component---node-modules-lekoarts-gatsby-theme-cara-src-templates-cara-tsx": hot(preferDefault(require("/Users/rupertfleming/Desktop/ProjectArea/sites/cara/node_modules/@lekoarts/gatsby-theme-cara/src/templates/cara.tsx"))),
   "component---src-pages-colour-boxes-js": hot(preferDefault(require("/Users/rupertfleming/Desktop/ProjectArea/sites/cara/src/pages/colourBoxes.js"))),
   "component---src-pages-dad-jokes-js": hot(preferDefault(require("/Users/rupertfleming/Desktop/ProjectArea/sites/cara/src/pages/dadJokes.js"))),

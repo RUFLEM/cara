@@ -1,7 +1,5 @@
 import React from "react"
-import Footer from "../@lekoarts/gatsby-theme-cara/components/footer";
 import Layout from "../@lekoarts/gatsby-theme-cara/components/layout";
-import "../@lekoarts/gatsby-theme-cara/styles/technology.css"
 
 
 
@@ -88,7 +86,7 @@ export default function Technology() {
                 <h3>Version Control</h3>
 
                 <p>Github</p>
-                
+
                 <p>Gitlab</p>
 
                 <h3>CSS</h3>
