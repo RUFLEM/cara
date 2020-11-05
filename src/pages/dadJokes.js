@@ -7,7 +7,7 @@ export default function DadJokes() {
     return (
         <div>
             <div className="dadJokes">
-                <JokeList></JokeList>
+                {/* <JokeList></JokeList> */}
 
             </div >
             <div style={{display: "flex"}}>
