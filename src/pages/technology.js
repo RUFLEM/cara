@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../@lekoarts/gatsby-theme-cara/components/layout";
+import "../@lekoarts/gatsby-theme-cara/styles/technology.css";
 
 
 
@@ -7,127 +8,143 @@ export default function Technology() {
     return (
         <div>
             <Layout>
-            
-            <div className="Technology">
-                <h1>Technology</h1>
 
-                <p>In 2017, after overloading one too many Excel workbooks, the hunt for better led me to Python. Programming has been blowing my mind ever since, I love it.</p>
+                <div className="Technology">
+                    <h1>Technology</h1>
 
-                <p>My focus has been around finance, data, visualisations and the web. Inspiration from Hans Rosling’s book, Factfulness, and his Ted Talk pushed me to D3 and Javascript.</p>
+                    <p>In 2017, after overloading one too many Excel spreadsheets, the hunt for better has led me to Python and Javascript. Programming has been blowing my mind ever since, I love it.</p>
 
-                <p>Below is a list of things I have played with in roughly chronological order on my journey so far.</p>
+                    <p>My focus has been around finance, data, visualisations and the web. Taking inspiration from Hans Rosling’s book, Factfulness, and his Ted Talk allowed me to discover D3.</p>
 
-                <h2>🐍 Python (almost all 3)</h2>
+                    <p>Some small projects I have built include:</p>
 
-                <p>Pandas</p>
+                    <ol>
+                        <li>BI dashboard web app using Gatsby.js with Auth0 user authentication, MaterialUI and ReCharts.</li>
+                        <li>Org. chart desktop app using D3.js and Electron.</li>
+                        <li>Instagram automation app. built with Python Pyramid Framework, deployed with Ansible. With user information stored in Sqlite.</li>
+                        <li>Finance web blog built with Gohugo.</li>
+                    </ol>
 
-                <p>Numpy</p>
+                    <p>Below is a list of things I have played with in roughly chronological order on my journey so far.</p>
 
-                <p>Scipy</p>
+                    <h2>🐍 Python (almost all 3)</h2>
 
-                <p>Matplotlib</p>
+                    <p>Pandas</p>
 
-                <p>Seaborn</p>
+                    <p>Numpy</p>
 
-                <p>Bokeh</p>
+                    <p>Scipy</p>
 
-                <p>Selenium</p>
+                    <p>SciKitLearn</p>
 
-                <p>Requests</p>
+                    <p>Matplotlib</p>
 
-                <p>Pyramid web framework</p>
+                    <p>Seaborn</p>
 
-                <p>Jupyter Notebooks</p>
+                    <p>Bokeh</p>
 
-                <p>PyExcel</p>
+                    <p>Selenium</p>
 
-                <p>BeatifulSoup</p>
+                    <p>Requests</p>
 
-                <p>SqlAlchemy</p>
+                    <p>BeatifulSoup</p>
 
-                <p>SciKitLearn</p>
+                    <p>Pyramid web framework</p>
 
-                <p>Attended various Python focussed meetups and a hackathon.</p>
+                    <p>Jupyter Notebooks</p>
 
-                <h2>🕸 Javascript</h2>
+                    <p>SqlAlchemy</p>
 
-                <p>D3</p>
+                    <p>Attended various Python focussed meetups and a hackathon.</p>
 
-                <p>React</p>
+                    <h2>🕸 Javascript</h2>
 
-                <p>Gatsby</p>
+                    <p>D3</p>
 
-                <p>Recharts</p>
+                    <p>React</p>
 
-                <p>Auth0</p>
+                    <p>Gatsby</p>
 
-                <p>Uuid</p>
+                    <p>Recharts</p>
 
-                <p>Axios</p>
+                    <p>Auth0</p>
 
-                <p>MaterialUI</p>
+                    <p>Uuid</p>
 
-                <p>Bootstrap</p>
+                    <p>Axios</p>
 
-                <p>JSS</p>
+                    <p>MaterialUI</p>
 
-                <p>Next</p>
+                    <p>Bootstrap</p>
 
-                <h2>Other stuff from using the above</h2>
+                    <p>JSS</p>
 
-                <h3>DB</h3>
+                    <h2>Other stuff from using the above</h2>
 
-                <p>SqlLite</p>
+                    <h3>DB</h3>
 
-                <p>Mongodb</p>
+                    <p>SqlLite</p>
 
-                <p>MySql - with Redash</p>
+                    <p>Mongodb</p>
 
-                <h3>Version Control</h3>
+                    <p>MySql - with Redash</p>
 
-                <p>Github</p>
+                    <h3>Version Control</h3>
 
-                <p>Gitlab</p>
+                    <p>Github</p>
 
-                <h3>CSS</h3>
+                    <p>Gitlab</p>
 
-                <p>FlexBox</p>
+                    <h3>CSS</h3>
 
-                <p>Box Model</p>
+                    <p>FlexBox</p>
 
-                <p>Animations</p>
+                    <p>Box Model</p>
 
-                <h3>Deployment</h3>
+                    <p>Animations</p>
 
-                <p>Ansible</p>
+                    <h3>Deployment</h3>
 
-                <p>DigitalOcean</p>
+                    <p>Ansible</p>
 
-                <p>AWS</p>
+                    <p>DigitalOcean</p>
 
-                <p>Netlify</p>
+                    <p>AWS</p>
 
-                <p>Heroku</p>
+                    <p>Netlify</p>
 
-                <h3>APIs</h3>
+                    <p>Heroku</p>
 
-                <p>IEX</p>
+                    <h3>APIs</h3>
 
-                <p>YahooFinance</p>
+                    <p>IEX</p>
 
-                <p>GoogleFinance</p>
+                    <p>YahooFinance</p>
 
-                <p>AlphaVantage</p>
+                    <p>GoogleFinance</p>
 
-                <h3>Editors</h3>
+                    <p>AlphaVantage</p>
 
-                <p>Sublime</p>
+                    <h3>Editors</h3>
 
-                <p>PyCharm</p>
+                    <p>Sublime</p>
 
-                <p>VSCode</p>
+                    <p>PyCharm</p>
 
-            </div >
+                    <p>VSCode</p>
+
+                    <h3>Other</h3>
+
+                    <p>GoHugo</p>
+
+                    <p>React-Native</p>
+
+                    <p>Electron</p>
+
+
+
+
+                </div >
             </Layout>
         </div>
     );
