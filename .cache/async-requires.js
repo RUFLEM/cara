@@ -13,6 +13,7 @@ exports.components = {
   "component---src-pages-lightsout-js": () => import("./../../src/pages/lightsout.js" /* webpackChunkName: "component---src-pages-lightsout-js" */),
   "component---src-pages-pokepage-js": () => import("./../../src/pages/pokepage.js" /* webpackChunkName: "component---src-pages-pokepage-js" */),
   "component---src-pages-project-js": () => import("./../../src/pages/project.js" /* webpackChunkName: "component---src-pages-project-js" */),
+  "component---src-pages-stoic-calendar-js": () => import("./../../src/pages/stoicCalendar.js" /* webpackChunkName: "component---src-pages-stoic-calendar-js" */),
   "component---src-pages-technology-js": () => import("./../../src/pages/technology.js" /* webpackChunkName: "component---src-pages-technology-js" */),
   "component---src-pages-to-do-js": () => import("./../../src/pages/toDo.js" /* webpackChunkName: "component---src-pages-to-do-js" */),
   "component---src-pages-yahoop-js": () => import("./../../src/pages/yahoop.js" /* webpackChunkName: "component---src-pages-yahoop-js" */),

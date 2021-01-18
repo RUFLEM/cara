@@ -20,6 +20,7 @@ export default function Project() {
       <Cards title="Yahtzee Game" link="/yahtzee"></Cards>
       <Cards title="Deal Cards" link="/deckCards"></Cards>
       <Cards title="Dad Jokes" link="/dadJokes"></Cards>
+      <Cards title="Stoic Calendar" link="/stoicCalendar"></Cards>
       </div>
       </div>
       <div>

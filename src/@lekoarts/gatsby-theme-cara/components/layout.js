@@ -14,9 +14,9 @@ export default function Layout({ children }) {
         <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
           <h3 style={{ display: `inline` }}>rupertfleming.com</h3>
         </Link>
-        <Link to="/technology" style={{ textShadow: `none`, backgroundImage: `none` }}>
+        {/* <Link to="/technology" style={{ textShadow: `none`, backgroundImage: `none` }}>
           <h3 style={{ display: `inline` }}>Technology</h3>
-        </Link>
+        </Link> */}
         {/* <ul style={{ listStyle: `none`, float: `right` }}>
           <ListLink to="/">Home</ListLink>
         </ul> */}
