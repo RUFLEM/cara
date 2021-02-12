@@ -15,6 +15,7 @@ exports.components = {
   "component---src-pages-hangmanpage-js": hot(preferDefault(require("/Users/rf/Desktop/ProjectArea/JS/cara/src/pages/hangmanpage.js"))),
   "component---src-pages-lightsout-js": hot(preferDefault(require("/Users/rf/Desktop/ProjectArea/JS/cara/src/pages/lightsout.js"))),
   "component---src-pages-pokepage-js": hot(preferDefault(require("/Users/rf/Desktop/ProjectArea/JS/cara/src/pages/pokepage.js"))),
+  "component---src-pages-privacy-js": hot(preferDefault(require("/Users/rf/Desktop/ProjectArea/JS/cara/src/pages/Privacy.js"))),
   "component---src-pages-project-js": hot(preferDefault(require("/Users/rf/Desktop/ProjectArea/JS/cara/src/pages/project.js"))),
   "component---src-pages-stoic-calendar-js": hot(preferDefault(require("/Users/rf/Desktop/ProjectArea/JS/cara/src/pages/stoicCalendar.js"))),
   "component---src-pages-technology-js": hot(preferDefault(require("/Users/rf/Desktop/ProjectArea/JS/cara/src/pages/technology.js"))),

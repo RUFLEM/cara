@@ -1,6 +1,7 @@
 import React from "react"
 import Footer from "../@lekoarts/gatsby-theme-cara/components/footer"
 import Cards from "../@lekoarts/gatsby-theme-cara/components/PF/cards"
+import DataFetch from "../@lekoarts/gatsby-theme-cara/components/PF/dataFetch/DataFetch"
 
 
 export default function Project() {
@@ -21,6 +22,7 @@ export default function Project() {
       <Cards title="Deal Cards" link="/deckCards"></Cards>
       <Cards title="Dad Jokes" link="/dadJokes"></Cards>
       <Cards title="Stoic Calendar" link="/stoicCalendar"></Cards>
+      <DataFetch></DataFetch>
       </div>
       </div>
       <div>
