@@ -18,6 +18,8 @@ exports.components = {
   "component---src-pages-privacy-js": hot(preferDefault(require("/Users/rf/Desktop/ProjectArea/JS/cara/src/pages/Privacy.js"))),
   "component---src-pages-project-js": hot(preferDefault(require("/Users/rf/Desktop/ProjectArea/JS/cara/src/pages/project.js"))),
   "component---src-pages-stoic-calendar-js": hot(preferDefault(require("/Users/rf/Desktop/ProjectArea/JS/cara/src/pages/stoicCalendar.js"))),
+  "component---src-pages-stonk-face-js": hot(preferDefault(require("/Users/rf/Desktop/ProjectArea/JS/cara/src/pages/StonkFace.js"))),
+  "component---src-pages-support-js": hot(preferDefault(require("/Users/rf/Desktop/ProjectArea/JS/cara/src/pages/Support.js"))),
   "component---src-pages-technology-js": hot(preferDefault(require("/Users/rf/Desktop/ProjectArea/JS/cara/src/pages/technology.js"))),
   "component---src-pages-to-do-js": hot(preferDefault(require("/Users/rf/Desktop/ProjectArea/JS/cara/src/pages/toDo.js"))),
   "component---src-pages-yahoop-js": hot(preferDefault(require("/Users/rf/Desktop/ProjectArea/JS/cara/src/pages/yahoop.js"))),
